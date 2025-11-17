@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTTAM DEVELOPER </title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+
+    <div>
+        <form id="form1">
+            <p>Modern Registration From </p>
+        </form>
+       
+    </div>
+
+    <div>
+        <form id="form2">
+            <p>Student Registration From </p>
+        </form>
+       
+    </div>
+
+    <form class="main-form">
+    <div class="name-form">
+        <div class="input-name" id="first-name">
+            <label class="label1">First Name</label>
+            <input type="test" placeholder="Enter first name"  class="input1">
+        </div>
+
+        <div class="input-name" id="last-name">
+            <label class="label1">Last Name </label>
+            <input type="test" placeholder="Enter last name" class="input1">
+        </div>
+    </div> 
+    <br><br>
+    
+       <label id="date-label">Date of Birth </label>
+       <div class="date-box">
+            <diV id="day-box" >
+            <select class="date">
+                <option value="1" disabled selected>Day</option>
+                <option value="2">00</option>
+                <option value="3">122</option>
+            </select>
+            </diV>
+
+            <div id="month-box" >
+            <select class="date">
+                <option value="1" disabled selected >Month</option>
+                <option value="2">22</option>
+                <option value="3">22</option>
+            </select> 
+            </div>
+            <div id="year-box" >
+            <select class="date">
+                <option value="1" disabled selected>Year</option>
+                <option value="2">22</option>
+                <option value="3">22</option>
+            </select>
+            </div>
+    </div>
+    
+     
+
+        <br><br>
+<div class="con-form">
+    <div id="email-tag">
+        <label class="con-label">Email ID</label> 
+        <input type="text" placeholder="Enter email address" class="con-form-box">
+    </div>
+    <div id="phone-tag">
+        <label class="con-label">Mobile Number</label>
+        <input type="text" placeholder="Enter 10-digit mobile number " class="con-form-box">
+    </div> 
+</div><br>
+<div id="gender-box">
+       <label id="gender-label">Gender</label><br>    
+         <label class="gender1"><input type="radio" name="gender"  >Male</label>
+       <label class="gender1"><input type="radio" name="gender" >Female</label> 
+        <br><br>
+</div>
+
+<div>
+       <label id="address-label">Address</label> 
+         <textarea  cols="80" rows="5" placeholder="Enter your full address"  id="address-box" resize:none></textarea><br><br>
+</div>
+<div id="address-info">
+    <div class="add-tag">
+        <label class="address-label">City</label>
+        <input type="text" placeholder="Enter city" class="address-input" >
+    </div>
+        
+    <div class="add-tag">
+        <label class="address-label">PIN Code</label> 
+        <input type="text" placeholder=" Enter 6-digit PIN code" class="address-input"   > 
+    </div> 
+    <div class="add-tag">
+        <label class="address-label"> State</label>
+        <input type="text" placeholder="Enter state" class="address-input"> 
+    </div>
+      
+</div>
+        <br><br>
+<div>
+      <label id="country-label">Country</label>
+        <br>
+        <select id="country-select">
+            <option value="Select country" disabled selected >Select country</option>
+            <option value="India">India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Shree Lanka">Shree Lanka</option>
+            <option value="Japan">Japan</option>
+        </select>
+    <br><br>
+</div>
+    
+ <div>
+  <label id="Hobbies-label">Hobbies </label>  
+     <div id="Hobby-option1" >
+       
+        <label> <input type="checkbox">Drawing</label>
+
+        
+        <label><input type="checkbox">Singing</label>
+
+       
+        <label> <input type="checkbox">Dancing</label>
+    </div>
+    <div id="Hobby-option2">
+        <label><input type="checkbox">Sketching</label> 
+    
+ 
+        <label><input type="checkbox">Other</label> 
+    </div>
+      
+   
+</div>
+<br>
+<div>
+       <label id="QUalification-label"> Qualification </label>
+        <table   cellpadding="5-x" rules="all">
+            <tr >
+                <th>Sr.No</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+                <hr>
+            </tr>
+
+            <tr> 
+                <td>1</td>
+                <td>Class X</td>
+                <td class="td1"><input type="text" ></td>
+                <td class="td1"><input type="text" ></td>
+                <td class="td1"><input type="text" ></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+            </tr>
+            
+        </table>
+    <hr>
+
+    </div>
+
+<div>
+       <label id="check-box1"> Courses Applied For</label> <br><br>
+    <div id="check-box2">
+        <input type="radio" name="degree">BCA
+        <input type="radio"name="degree">B.Com
+        <input type="radio"name="degree">B.Sc
+        <input type="radio"name="degree">B.A
+    </div>
+       
+</div>
+<br><br>
+<diV class="button-bar">
+         <button type="reset">Reset</button>
+        <button type="submit" id="submit-button">Submit</button>
+</diV>
+
+</form>
+
+    <div>
+        <form id="form3">
+            <p>Professional Registration From </p>
+        </form>
+       
+    </div>
+   
+
+</body>
+</html>
